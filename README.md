@@ -222,6 +222,10 @@ curl -L "http://localhost:3000/api/documents/<DOCUMENT_ID>" --output document.pd
 - UI: [http://localhost:3000/docs](http://localhost:3000/docs)
 - Spec: `src/docs/openapi.yaml`
 
+## Deployment
+
+- API deployed URL: [https://test-back-nodejs.onrender.com](https://test-back-nodejs.onrender.com)
+
 ## Postman
 
 Importer la collection:
