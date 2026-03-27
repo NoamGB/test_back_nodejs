@@ -41,6 +41,48 @@ API de generation asynchrone de documents PDF en batch (jusqu'a 1000 IDs), avec 
 8. Les statuts documents/batch sont mis a jour (`pending` -> `processing` -> `completed`/`failed`).
 9. Le client suit la progression via endpoints batch/document.
 
+### Architecture diagram (sequence batch processing)
+
+```mermaid
+sequenceDiagram
+    autonumber
+    participant C as Client
+    participant API as API (Express)
+    participant DB as MongoDB
+    participant Q as Bull Queue (Redis)
+    participant W as Worker
+    participant CB as Circuit Breaker (DocuSign simule)
+    participant WT as Worker Thread (PDF)
+    participant FS as GridFS
+
+    C->>API: POST /api/documents/batch { userIds[] }
+    API->>DB: Create batch(status=pending)
+    loop for each userId
+        API->>DB: Create document(status=pending)
+        API->>Q: add job(documentId, userId, batchId)
+    end
+    API-->>C: 200 { batchId }
+
+    Q-->>W: consume job
+    W->>DB: document -> processing
+    W->>CB: call DocuSign simulated
+    CB-->>W: provider metadata
+    W->>WT: generate PDF data (worker_threads)
+    WT-->>W: PDF chunks/stream
+    W->>FS: stream upload PDF
+    FS-->>W: fileId
+    W->>DB: document -> completed + fileId
+    W->>DB: update batch statusCounts/status
+
+    C->>API: GET /api/documents/batch/:batchId
+    API->>DB: read batch + documents
+    API-->>C: status + statusCounts
+
+    C->>API: GET /api/documents/:documentId
+    API->>FS: download stream by fileId
+    API-->>C: application/pdf stream
+```
+
 ## Arborescence utile
 
 - `server.js`: bootstrap API + graceful shutdown
