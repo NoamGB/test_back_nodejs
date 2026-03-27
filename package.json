@@ -1,24 +1,35 @@
 {
-  "name": "test_back_nodejs",
+  "name": "test_back_nodejs x doc-service",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "worker": "node src/modules/worker/document.worker.js",
+    "benchmark": "node benchmark.js",
+    "benchmark:graph": "node scripts/generate-benchmark-graph.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^2.2.2",
     "bull": "^4.16.5",
+    "cors": "^2.8.6",
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
     "ioredis": "^5.10.1",
+    "joi": "^18.1.1",
     "mongoose": "^9.3.3",
     "opossum": "^9.0.0",
     "pdfkit": "^0.18.0",
+    "pngjs": "^7.0.0",
     "prom-client": "^15.1.3",
-    "winston": "^3.19.0"
+    "swagger-ui-express": "^5.0.1",
+    "winston": "^3.19.0",
+    "yamljs": "^0.3.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
