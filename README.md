@@ -104,7 +104,9 @@ npm install
 ### 1) Dependances (Mongo + Redis)
 
 ```bash
-docker compose up -d
+docker compose up -d --build
+# ou (si ton Docker n'a pas le plugin Compose v2):
+# docker-compose up -d --build
 ```
 
 ### 2) API (terminal 1)
@@ -219,6 +221,13 @@ curl -L "http://localhost:3000/api/documents/<DOCUMENT_ID>" --output document.pd
 
 - UI: [http://localhost:3000/docs](http://localhost:3000/docs)
 - Spec: `src/docs/openapi.yaml`
+
+## Postman
+
+Importer la collection:
+- fichier: `postman_collection.json`
+- dans Postman: `Import` -> `File` -> selectionne `postman_collection.json`
+- assure-toi que la variable `baseUrl` vaut bien `http://localhost:3000`
 
 ## Benchmark
 

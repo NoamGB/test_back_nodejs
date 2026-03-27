@@ -1,0 +1,120 @@
+{
+  "info": {
+    "name": "Document Batch API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "baseUrl", "value": "http://localhost:3000" },
+    { "key": "batchId", "value": "" },
+    { "key": "documentId", "value": "" }
+  ],
+  "item": [
+    {
+      "name": "Health",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/health",
+          "host": ["{{baseUrl}}"],
+          "path": ["health"]
+        }
+      }
+    },
+    {
+      "name": "Metrics",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/metrics",
+          "host": ["{{baseUrl}}"],
+          "path": ["metrics"]
+        }
+      }
+    },
+    {
+      "name": "Dashboard",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/dashboard",
+          "host": ["{{baseUrl}}"],
+          "path": ["dashboard"]
+        }
+      }
+    },
+    {
+      "name": "Create batch (3 users)",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"userIds\": [\"user_0001\", \"user_0002\", \"user_0003\"]\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/documents/batch",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "documents", "batch"]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const json = pm.response.json();",
+              "if (json && json.batchId) {",
+              "  pm.environment.set('batchId', json.batchId);",
+              "}"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Get batch status + documents",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/documents/batch/{{batchId}}",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "documents", "batch", "{{batchId}}"]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const json = pm.response.json();",
+              "if (json && json.data && Array.isArray(json.data.documents) && json.data.documents.length) {",
+              "  pm.environment.set('documentId', json.data.documents[0]._id);",
+              "}"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Download generated PDF",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/documents/{{documentId}}",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "documents", "{{documentId}}"]
+        }
+      }
+    }
+  ]
+}
+

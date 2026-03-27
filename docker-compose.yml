@@ -1,26 +1,67 @@
-version: '3'
+version: '2.4'
+
 services:
   api:
     build: .
+    command: npm run start
     ports:
       - "3000:3000"
+    environment:
+      PORT: 3000
+      URL_DB_MONGO: mongodb://mongo:27017/test_api_back_nodejs
+      REDIS_URL: redis://redis:6379
+      REDIS_HOST: redis
+      QUEUE_CONCURRENCY: 10
+      PDF_TIMEOUT_MS: 5000
+      LOG_LEVEL: info
     depends_on:
-      - mongo
-      - redis
+      mongo:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
 
   worker:
     build: .
     command: npm run worker
+    environment:
+      PORT: 3000
+      URL_DB_MONGO: mongodb://mongo:27017/test_api_back_nodejs
+      REDIS_URL: redis://redis:6379
+      REDIS_HOST: redis
+      QUEUE_CONCURRENCY: 10
+      PDF_TIMEOUT_MS: 5000
+      LOG_LEVEL: info
     depends_on:
-      - redis
-      - mongo
+      mongo:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
 
   mongo:
     image: mongo
+    restart: unless-stopped
     ports:
       - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping').ok"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
 
   redis:
     image: redis
+    restart: unless-stopped
     ports:
       - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  mongo_data:
