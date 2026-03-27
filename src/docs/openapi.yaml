@@ -5,6 +5,7 @@ info:
   description: API for asynchronous batch PDF generation with queue, worker, health checks and metrics.
 servers:
   - url: http://localhost:3000
+  - url: https://test-back-nodejs.onrender.com
 paths:
   /:
     get:
