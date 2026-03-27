@@ -158,6 +158,57 @@ curl http://localhost:3000/metrics
 curl http://localhost:3000/dashboard
 ```
 
+## Comment tester (Terminal ou Postman)
+
+Tu peux tester l'app soit avec des commandes terminal (`curl`), soit avec Postman.  
+Les deux methodes sont equivalentes.
+
+### Option A - Terminal (`curl`)
+
+1) Creer un batch:
+
+```bash
+curl -X POST http://localhost:3000/api/documents/batch \
+  -H "Content-Type: application/json" \
+  -d '{"userIds":["user_0001","user_0002","user_0003"]}'
+```
+
+2) Recuperer le `batchId` de la reponse, puis:
+
+```bash
+curl http://localhost:3000/api/documents/batch/<BATCH_ID>
+```
+
+3) Recuperer un `documentId` du batch, puis telecharger le PDF:
+
+```bash
+curl -L "http://localhost:3000/api/documents/<DOCUMENT_ID>" --output document.pdf
+```
+
+### Option B - Postman
+
+1) Requete `POST` `http://localhost:3000/api/documents/batch`
+- Body -> raw -> JSON:
+
+```json
+{
+  "userIds": ["user_0001", "user_0002", "user_0003"]
+}
+```
+
+2) Copier le `batchId` retourne, puis requete `GET`:
+- `http://localhost:3000/api/documents/batch/<BATCH_ID>`
+
+3) Copier un `documentId`, puis requete `GET`:
+- `http://localhost:3000/api/documents/<DOCUMENT_ID>`
+- Pour telecharger le PDF: utiliser **Send and Download**
+
+### Scenario de validation rapide (recommande)
+
+- `POST /api/documents/batch` -> verifier presence de `batchId`
+- `GET /api/documents/batch/:batchId` -> verifier progression (`statusCounts`)
+- `GET /api/documents/:documentId` -> verifier flux PDF (ou `409` tant que pas pret)
+
 ## Swagger / OpenAPI
 
 - UI: [http://localhost:3000/docs](http://localhost:3000/docs)

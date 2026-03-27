@@ -1,780 +1,779 @@
 {
   "apiBaseUrl": "http://localhost:3000",
-  "batchId": "69c64c2cb98064c4df03b151",
+  "batchId": "69c657b63e560bd613b67426",
   "totalDocuments": 1000,
   "processedDocuments": 1000,
   "counts": {
-    "completed": 999,
-    "failed": 1
+    "completed": 1000
   },
   "timedOut": false,
-  "elapsedMs": 470556,
-  "elapsedSeconds": 470.56,
-  "documentsPerSecond": 2.13,
+  "elapsedMs": 548519,
+  "elapsedSeconds": 548.52,
+  "documentsPerSecond": 1.82,
   "cpuAndMemorySamples": [
     {
-      "timestamp": "2026-03-27T09:22:30.713Z",
-      "elapsedSeconds": 42.17,
-      "cpuPercent": 0.34,
+      "timestamp": "2026-03-27T10:11:56.155Z",
+      "elapsedSeconds": 53.41,
+      "cpuPercent": 0.29,
       "memory": {
-        "rssMb": 66.58,
-        "heapUsedMb": 6.41
+        "rssMb": 66.67,
+        "heapUsedMb": 6.57
       },
       "progress": {
-        "completed": 83,
+        "completed": 72,
         "failed": 4,
-        "pending": 913
+        "pending": 924
       }
     },
     {
-      "timestamp": "2026-03-27T09:22:33.838Z",
-      "elapsedSeconds": 45.3,
-      "cpuPercent": 0.31,
+      "timestamp": "2026-03-27T10:11:59.811Z",
+      "elapsedSeconds": 57.06,
+      "cpuPercent": 0.29,
       "memory": {
-        "rssMb": 56.63,
-        "heapUsedMb": 6.84
+        "rssMb": 68.78,
+        "heapUsedMb": 7
       },
       "progress": {
-        "completed": 92,
+        "completed": 81,
         "failed": 4,
-        "pending": 904
+        "pending": 915
       }
     },
     {
-      "timestamp": "2026-03-27T09:22:40.714Z",
-      "elapsedSeconds": 52.17,
+      "timestamp": "2026-03-27T10:12:04.226Z",
+      "elapsedSeconds": 61.48,
       "cpuPercent": 0.21,
       "memory": {
-        "rssMb": 58.05,
-        "heapUsedMb": 7.4
+        "rssMb": 60.38,
+        "heapUsedMb": 7.9
       },
       "progress": {
-        "completed": 108,
-        "failed": 6,
-        "pending": 886
+        "completed": 90,
+        "failed": 4,
+        "pending": 906
       }
     },
     {
-      "timestamp": "2026-03-27T09:22:43.369Z",
-      "elapsedSeconds": 54.83,
-      "cpuPercent": 0.41,
+      "timestamp": "2026-03-27T10:12:07.869Z",
+      "elapsedSeconds": 65.12,
+      "cpuPercent": 0.17,
       "memory": {
-        "rssMb": 59.06,
-        "heapUsedMb": 8.05
+        "rssMb": 59.66,
+        "heapUsedMb": 8.11
       },
       "progress": {
-        "completed": 113,
-        "failed": 6,
-        "pending": 881
+        "completed": 96,
+        "failed": 4,
+        "pending": 900
       }
     },
     {
-      "timestamp": "2026-03-27T09:22:46.101Z",
-      "elapsedSeconds": 57.56,
-      "cpuPercent": 0.2,
+      "timestamp": "2026-03-27T10:12:12.654Z",
+      "elapsedSeconds": 69.91,
+      "cpuPercent": 0.25,
       "memory": {
-        "rssMb": 59.3,
-        "heapUsedMb": 8.53
+        "rssMb": 60.14,
+        "heapUsedMb": 8.52
       },
       "progress": {
-        "completed": 122,
+        "completed": 102,
+        "failed": 4,
+        "pending": 894
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:12:17.441Z",
+      "elapsedSeconds": 74.69,
+      "cpuPercent": 0.12,
+      "memory": {
+        "rssMb": 60.59,
+        "heapUsedMb": 8.91
+      },
+      "progress": {
+        "completed": 111,
+        "failed": 4,
+        "pending": 885
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:12:20.822Z",
+      "elapsedSeconds": 78.08,
+      "cpuPercent": 0.18,
+      "memory": {
+        "rssMb": 59.98,
+        "heapUsedMb": 8.75
+      },
+      "progress": {
+        "completed": 115,
         "failed": 6,
+        "pending": 879
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:12:24.856Z",
+      "elapsedSeconds": 82.11,
+      "cpuPercent": 0.22,
+      "memory": {
+        "rssMb": 59.38,
+        "heapUsedMb": 8.98
+      },
+      "progress": {
+        "completed": 121,
+        "failed": 7,
         "pending": 872
       }
     },
     {
-      "timestamp": "2026-03-27T09:22:48.916Z",
-      "elapsedSeconds": 60.38,
-      "cpuPercent": 0.27,
+      "timestamp": "2026-03-27T10:12:27.919Z",
+      "elapsedSeconds": 85.17,
+      "cpuPercent": 0.11,
       "memory": {
-        "rssMb": 59.58,
-        "heapUsedMb": 8.49
+        "rssMb": 59.55,
+        "heapUsedMb": 9.46
       },
       "progress": {
-        "completed": 129,
+        "completed": 126,
         "failed": 7,
-        "pending": 864
+        "pending": 867
       }
     },
     {
-      "timestamp": "2026-03-27T09:22:51.460Z",
-      "elapsedSeconds": 62.92,
+      "timestamp": "2026-03-27T10:12:30.978Z",
+      "elapsedSeconds": 88.23,
+      "cpuPercent": 0.16,
+      "memory": {
+        "rssMb": 60.2,
+        "heapUsedMb": 9.88
+      },
+      "progress": {
+        "completed": 133,
+        "failed": 7,
+        "pending": 860
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:12:34.835Z",
+      "elapsedSeconds": 92.09,
       "cpuPercent": 0.18,
       "memory": {
-        "rssMb": 60.11,
-        "heapUsedMb": 8.93
+        "rssMb": 60.83,
+        "heapUsedMb": 9.59
       },
       "progress": {
-        "completed": 139,
-        "failed": 8,
-        "pending": 853
+        "completed": 138,
+        "failed": 7,
+        "pending": 855
       }
     },
     {
-      "timestamp": "2026-03-27T09:22:56.455Z",
-      "elapsedSeconds": 67.92,
-      "cpuPercent": 0.13,
+      "timestamp": "2026-03-27T10:12:38.128Z",
+      "elapsedSeconds": 95.38,
+      "cpuPercent": 0.18,
       "memory": {
-        "rssMb": 57.88,
-        "heapUsedMb": 9.33
+        "rssMb": 61.27,
+        "heapUsedMb": 10.04
       },
       "progress": {
-        "completed": 150,
+        "completed": 145,
         "failed": 8,
-        "pending": 842
+        "pending": 847
       }
     },
     {
-      "timestamp": "2026-03-27T09:22:59.330Z",
-      "elapsedSeconds": 70.79,
-      "cpuPercent": 0.17,
-      "memory": {
-        "rssMb": 58.17,
-        "heapUsedMb": 9.27
-      },
-      "progress": {
-        "completed": 157,
-        "failed": 8,
-        "pending": 835
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:23:01.898Z",
-      "elapsedSeconds": 73.36,
+      "timestamp": "2026-03-27T10:12:44.788Z",
+      "elapsedSeconds": 102.04,
       "cpuPercent": 0.11,
       "memory": {
-        "rssMb": 58.38,
-        "heapUsedMb": 9.73
+        "rssMb": 60.91,
+        "heapUsedMb": 10.5
       },
       "progress": {
-        "completed": 165,
+        "completed": 151,
         "failed": 8,
-        "pending": 827
+        "pending": 841
       }
     },
     {
-      "timestamp": "2026-03-27T09:23:04.629Z",
-      "elapsedSeconds": 76.09,
-      "cpuPercent": 0.23,
+      "timestamp": "2026-03-27T10:12:47.307Z",
+      "elapsedSeconds": 104.56,
+      "cpuPercent": 0.15,
       "memory": {
-        "rssMb": 58.86,
-        "heapUsedMb": 9.98
+        "rssMb": 61.02,
+        "heapUsedMb": 10.72
       },
       "progress": {
-        "completed": 171,
-        "failed": 8,
-        "pending": 821
+        "completed": 160,
+        "failed": 9,
+        "pending": 831
       }
     },
     {
-      "timestamp": "2026-03-27T09:23:07.176Z",
-      "elapsedSeconds": 78.64,
+      "timestamp": "2026-03-27T10:12:49.934Z",
+      "elapsedSeconds": 107.19,
+      "cpuPercent": 0.29,
+      "memory": {
+        "rssMb": 61.48,
+        "heapUsedMb": 11.14
+      },
+      "progress": {
+        "completed": 166,
+        "failed": 9,
+        "pending": 825
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:12:53.219Z",
+      "elapsedSeconds": 110.47,
+      "cpuPercent": 0.19,
+      "memory": {
+        "rssMb": 61.75,
+        "heapUsedMb": 11.32
+      },
+      "progress": {
+        "completed": 174,
+        "failed": 9,
+        "pending": 817
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:12:56.960Z",
+      "elapsedSeconds": 114.21,
+      "cpuPercent": 0.16,
+      "memory": {
+        "rssMb": 61.92,
+        "heapUsedMb": 11.73
+      },
+      "progress": {
+        "completed": 183,
+        "failed": 8,
+        "pending": 809
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:13:00.686Z",
+      "elapsedSeconds": 117.94,
       "cpuPercent": 0.14,
       "memory": {
-        "rssMb": 59.44,
-        "heapUsedMb": 9.95
+        "rssMb": 51.44,
+        "heapUsedMb": 11.47
       },
       "progress": {
-        "completed": 179,
+        "completed": 195,
         "failed": 8,
-        "pending": 813
+        "pending": 797
       }
     },
     {
-      "timestamp": "2026-03-27T09:23:10.047Z",
-      "elapsedSeconds": 81.51,
-      "cpuPercent": 0.24,
+      "timestamp": "2026-03-27T10:13:03.659Z",
+      "elapsedSeconds": 120.91,
+      "cpuPercent": 0.09,
       "memory": {
-        "rssMb": 59.84,
-        "heapUsedMb": 10.36
+        "rssMb": 49.86,
+        "heapUsedMb": 11.93
       },
       "progress": {
-        "completed": 189,
+        "completed": 201,
         "failed": 8,
-        "pending": 803
+        "pending": 791
       }
     },
     {
-      "timestamp": "2026-03-27T09:23:13.027Z",
-      "elapsedSeconds": 84.49,
-      "cpuPercent": 0.24,
+      "timestamp": "2026-03-27T10:13:06.190Z",
+      "elapsedSeconds": 123.44,
+      "cpuPercent": 0.21,
       "memory": {
-        "rssMb": 60.75,
-        "heapUsedMb": 10.77
+        "rssMb": 51.27,
+        "heapUsedMb": 12.35
       },
       "progress": {
-        "completed": 198,
-        "failed": 8,
-        "pending": 794
+        "completed": 208,
+        "failed": 10,
+        "pending": 782
       }
     },
     {
-      "timestamp": "2026-03-27T09:23:17.111Z",
-      "elapsedSeconds": 88.57,
-      "cpuPercent": 0.11,
+      "timestamp": "2026-03-27T10:13:09.497Z",
+      "elapsedSeconds": 126.75,
+      "cpuPercent": 0.61,
       "memory": {
-        "rssMb": 60.78,
-        "heapUsedMb": 10.94
-      },
-      "progress": {
-        "completed": 204,
-        "failed": 8,
-        "pending": 788
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:23:19.700Z",
-      "elapsedSeconds": 91.16,
-      "cpuPercent": 0.27,
-      "memory": {
-        "rssMb": 57.3,
-        "heapUsedMb": 11.35
-      },
-      "progress": {
-        "completed": 212,
-        "failed": 8,
-        "pending": 780
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:23:22.508Z",
-      "elapsedSeconds": 93.97,
-      "cpuPercent": 0.12,
-      "memory": {
-        "rssMb": 50.69,
-        "heapUsedMb": 11.3
+        "rssMb": 55.33,
+        "heapUsedMb": 7.25
       },
       "progress": {
         "completed": 217,
-        "failed": 8,
-        "pending": 775
+        "failed": 11,
+        "pending": 772
       }
     },
     {
-      "timestamp": "2026-03-27T09:23:27.756Z",
-      "elapsedSeconds": 99.22,
-      "cpuPercent": 0.19,
+      "timestamp": "2026-03-27T10:13:15.413Z",
+      "elapsedSeconds": 132.67,
+      "cpuPercent": 0.2,
       "memory": {
-        "rssMb": 51.98,
-        "heapUsedMb": 11.43
+        "rssMb": 54.33,
+        "heapUsedMb": 8.14
       },
       "progress": {
-        "completed": 230,
-        "failed": 9,
-        "pending": 761
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:23:31.300Z",
-      "elapsedSeconds": 102.76,
-      "cpuPercent": 0.21,
-      "memory": {
-        "rssMb": 53.13,
-        "heapUsedMb": 11.84
-      },
-      "progress": {
-        "completed": 234,
-        "failed": 10,
+        "completed": 232,
+        "failed": 12,
         "pending": 756
       }
     },
     {
-      "timestamp": "2026-03-27T09:23:33.842Z",
-      "elapsedSeconds": 105.3,
-      "cpuPercent": 0.2,
+      "timestamp": "2026-03-27T10:13:21.205Z",
+      "elapsedSeconds": 138.46,
+      "cpuPercent": 0.21,
       "memory": {
-        "rssMb": 53.77,
-        "heapUsedMb": 12.24
+        "rssMb": 53.7,
+        "heapUsedMb": 9.02
       },
       "progress": {
-        "completed": 242,
-        "failed": 10,
-        "pending": 748
+        "completed": 241,
+        "failed": 12,
+        "pending": 747
       }
     },
     {
-      "timestamp": "2026-03-27T09:23:38.528Z",
-      "elapsedSeconds": 109.99,
-      "cpuPercent": 0.17,
+      "timestamp": "2026-03-27T10:13:24.023Z",
+      "elapsedSeconds": 141.28,
+      "cpuPercent": 0.14,
       "memory": {
-        "rssMb": 54.06,
-        "heapUsedMb": 12.66
+        "rssMb": 53.89,
+        "heapUsedMb": 9.46
       },
       "progress": {
-        "completed": 251,
-        "failed": 11,
+        "completed": 249,
+        "failed": 13,
         "pending": 738
       }
     },
     {
-      "timestamp": "2026-03-27T09:23:41.790Z",
-      "elapsedSeconds": 113.25,
-      "cpuPercent": 0.78,
+      "timestamp": "2026-03-27T10:13:27.215Z",
+      "elapsedSeconds": 144.47,
+      "cpuPercent": 0.18,
       "memory": {
-        "rssMb": 57.64,
-        "heapUsedMb": 7.61
+        "rssMb": 54.81,
+        "heapUsedMb": 9.75
       },
       "progress": {
-        "completed": 260,
-        "failed": 11,
-        "pending": 729
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:23:45.304Z",
-      "elapsedSeconds": 116.76,
-      "cpuPercent": 0.24,
-      "memory": {
-        "rssMb": 58.86,
-        "heapUsedMb": 8.42
-      },
-      "progress": {
-        "completed": 267,
+        "completed": 259,
         "failed": 13,
-        "pending": 720
+        "pending": 728
       }
     },
     {
-      "timestamp": "2026-03-27T09:23:47.826Z",
-      "elapsedSeconds": 119.29,
-      "cpuPercent": 0.17,
+      "timestamp": "2026-03-27T10:13:32.329Z",
+      "elapsedSeconds": 149.58,
+      "cpuPercent": 0.1,
       "memory": {
-        "rssMb": 59.05,
-        "heapUsedMb": 8.91
+        "rssMb": 55.05,
+        "heapUsedMb": 10
       },
       "progress": {
-        "completed": 272,
+        "completed": 270,
         "failed": 13,
-        "pending": 715
+        "pending": 717
       }
     },
     {
-      "timestamp": "2026-03-27T09:23:50.655Z",
-      "elapsedSeconds": 122.11,
-      "cpuPercent": 0.25,
+      "timestamp": "2026-03-27T10:13:36.266Z",
+      "elapsedSeconds": 153.52,
+      "cpuPercent": 0.11,
       "memory": {
-        "rssMb": 59.31,
-        "heapUsedMb": 9.36
+        "rssMb": 55.52,
+        "heapUsedMb": 9.98
       },
       "progress": {
-        "completed": 280,
-        "failed": 14,
+        "completed": 281,
+        "failed": 13,
         "pending": 706
       }
     },
     {
-      "timestamp": "2026-03-27T09:23:53.465Z",
-      "elapsedSeconds": 124.92,
-      "cpuPercent": 0.21,
+      "timestamp": "2026-03-27T10:13:39.587Z",
+      "elapsedSeconds": 156.84,
+      "cpuPercent": 0.06,
       "memory": {
-        "rssMb": 59.34,
-        "heapUsedMb": 9.17
+        "rssMb": 53.95,
+        "heapUsedMb": 10.45
       },
       "progress": {
-        "completed": 289,
+        "completed": 287,
+        "failed": 13,
+        "pending": 700
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:13:44.061Z",
+      "elapsedSeconds": 161.31,
+      "cpuPercent": 0.14,
+      "memory": {
+        "rssMb": 53.5,
+        "heapUsedMb": 10.63
+      },
+      "progress": {
+        "completed": 296,
         "failed": 14,
-        "pending": 697
+        "pending": 690
       }
     },
     {
-      "timestamp": "2026-03-27T09:23:56.363Z",
-      "elapsedSeconds": 127.82,
-      "cpuPercent": 0.18,
+      "timestamp": "2026-03-27T10:13:48.080Z",
+      "elapsedSeconds": 165.33,
+      "cpuPercent": 0.16,
       "memory": {
-        "rssMb": 58.16,
-        "heapUsedMb": 9.61
+        "rssMb": 53.77,
+        "heapUsedMb": 10.89
       },
       "progress": {
-        "completed": 295,
-        "failed": 14,
-        "pending": 691
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:23:59.055Z",
-      "elapsedSeconds": 130.51,
-      "cpuPercent": 0.13,
-      "memory": {
-        "rssMb": 58.3,
-        "heapUsedMb": 10.08
-      },
-      "progress": {
-        "completed": 302,
-        "failed": 14,
-        "pending": 684
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:24:01.820Z",
-      "elapsedSeconds": 133.28,
-      "cpuPercent": 0.18,
-      "memory": {
-        "rssMb": 58.23,
-        "heapUsedMb": 10.08
-      },
-      "progress": {
-        "completed": 309,
-        "failed": 14,
-        "pending": 677
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:24:05.307Z",
-      "elapsedSeconds": 136.77,
-      "cpuPercent": 0.15,
-      "memory": {
-        "rssMb": 58.28,
-        "heapUsedMb": 10.76
-      },
-      "progress": {
-        "completed": 316,
-        "failed": 15,
-        "pending": 669
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:24:07.833Z",
-      "elapsedSeconds": 139.29,
-      "cpuPercent": 0.23,
-      "memory": {
-        "rssMb": 57.98,
-        "heapUsedMb": 11.03
-      },
-      "progress": {
-        "completed": 325,
-        "failed": 15,
-        "pending": 660
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:24:12.921Z",
-      "elapsedSeconds": 144.38,
-      "cpuPercent": 0.19,
-      "memory": {
-        "rssMb": 57.75,
-        "heapUsedMb": 11.47
-      },
-      "progress": {
-        "completed": 336,
+        "completed": 306,
         "failed": 16,
+        "pending": 678
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:13:51.205Z",
+      "elapsedSeconds": 168.46,
+      "cpuPercent": 0.12,
+      "memory": {
+        "rssMb": 53.25,
+        "heapUsedMb": 10.91
+      },
+      "progress": {
+        "completed": 312,
+        "failed": 17,
+        "pending": 671
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:13:53.557Z",
+      "elapsedSeconds": 170.81,
+      "cpuPercent": 0.22,
+      "memory": {
+        "rssMb": 53.48,
+        "heapUsedMb": 11.19
+      },
+      "progress": {
+        "completed": 319,
+        "failed": 17,
+        "pending": 664
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:14:00.409Z",
+      "elapsedSeconds": 177.66,
+      "cpuPercent": 0.18,
+      "memory": {
+        "rssMb": 50.22,
+        "heapUsedMb": 10.98
+      },
+      "progress": {
+        "completed": 332,
+        "failed": 20,
         "pending": 648
       }
     },
     {
-      "timestamp": "2026-03-27T09:24:15.443Z",
-      "elapsedSeconds": 146.9,
-      "cpuPercent": 0.17,
+      "timestamp": "2026-03-27T10:14:04.329Z",
+      "elapsedSeconds": 181.58,
+      "cpuPercent": 0.11,
       "memory": {
-        "rssMb": 58.02,
-        "heapUsedMb": 12.13
+        "rssMb": 52.52,
+        "heapUsedMb": 11.41
       },
       "progress": {
         "completed": 343,
-        "failed": 18,
-        "pending": 639
+        "failed": 20,
+        "pending": 637
       }
     },
     {
-      "timestamp": "2026-03-27T09:24:18.713Z",
-      "elapsedSeconds": 150.17,
-      "cpuPercent": 0.25,
+      "timestamp": "2026-03-27T10:14:09.972Z",
+      "elapsedSeconds": 187.22,
+      "cpuPercent": 0.14,
       "memory": {
-        "rssMb": 58.59,
-        "heapUsedMb": 12.16
-      },
-      "progress": {
-        "completed": 351,
-        "failed": 18,
-        "pending": 631
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:24:22.153Z",
-      "elapsedSeconds": 153.61,
-      "cpuPercent": 0.17,
-      "memory": {
-        "rssMb": 57,
-        "heapUsedMb": 12.58
+        "rssMb": 52.7,
+        "heapUsedMb": 11.6
       },
       "progress": {
         "completed": 356,
-        "failed": 18,
-        "pending": 626
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:24:26.875Z",
-      "elapsedSeconds": 158.34,
-      "cpuPercent": 0.16,
-      "memory": {
-        "rssMb": 57.17,
-        "heapUsedMb": 13.06
-      },
-      "progress": {
-        "completed": 365,
-        "failed": 19,
-        "pending": 616
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:24:30.596Z",
-      "elapsedSeconds": 162.06,
-      "cpuPercent": 0.15,
-      "memory": {
-        "rssMb": 56.44,
-        "heapUsedMb": 13.32
-      },
-      "progress": {
-        "completed": 373,
         "failed": 20,
-        "pending": 607
+        "pending": 624
       }
     },
     {
-      "timestamp": "2026-03-27T09:24:35.262Z",
-      "elapsedSeconds": 166.72,
+      "timestamp": "2026-03-27T10:14:13.482Z",
+      "elapsedSeconds": 190.74,
+      "cpuPercent": 0.11,
+      "memory": {
+        "rssMb": 52.2,
+        "heapUsedMb": 11.61
+      },
+      "progress": {
+        "completed": 363,
+        "failed": 20,
+        "pending": 617
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:14:16.354Z",
+      "elapsedSeconds": 193.61,
+      "cpuPercent": 0.19,
+      "memory": {
+        "rssMb": 53.8,
+        "heapUsedMb": 11.87
+      },
+      "progress": {
+        "completed": 370,
+        "failed": 20,
+        "pending": 610
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:14:19.195Z",
+      "elapsedSeconds": 196.45,
+      "cpuPercent": 0.17,
+      "memory": {
+        "rssMb": 54.23,
+        "heapUsedMb": 12.31
+      },
+      "progress": {
+        "completed": 378,
+        "failed": 20,
+        "pending": 602
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:14:24.842Z",
+      "elapsedSeconds": 202.09,
       "cpuPercent": 0.14,
       "memory": {
-        "rssMb": 57.11,
-        "heapUsedMb": 13.12
-      },
-      "progress": {
-        "completed": 379,
-        "failed": 22,
-        "pending": 599
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:24:41.106Z",
-      "elapsedSeconds": 172.57,
-      "cpuPercent": 0.16,
-      "memory": {
-        "rssMb": 57.16,
-        "heapUsedMb": 13.63
-      },
-      "progress": {
-        "completed": 383,
-        "failed": 22,
-        "pending": 595
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:24:45.659Z",
-      "elapsedSeconds": 177.12,
-      "cpuPercent": 0.13,
-      "memory": {
-        "rssMb": 55.75,
-        "heapUsedMb": 13.88
+        "rssMb": 49.84,
+        "heapUsedMb": 13.01
       },
       "progress": {
         "completed": 391,
-        "failed": 23,
-        "pending": 586
+        "failed": 21,
+        "pending": 588
       }
     },
     {
-      "timestamp": "2026-03-27T09:24:48.735Z",
-      "elapsedSeconds": 180.19,
-      "cpuPercent": 0.2,
+      "timestamp": "2026-03-27T10:14:27.726Z",
+      "elapsedSeconds": 204.98,
+      "cpuPercent": 0.17,
       "memory": {
-        "rssMb": 53.56,
-        "heapUsedMb": 13.66
+        "rssMb": 51.94,
+        "heapUsedMb": 12.78
       },
       "progress": {
-        "completed": 394,
-        "failed": 24,
-        "pending": 582
+        "completed": 397,
+        "failed": 22,
+        "pending": 581
       }
     },
     {
-      "timestamp": "2026-03-27T09:24:51.667Z",
-      "elapsedSeconds": 183.13,
-      "cpuPercent": 0.55,
-      "memory": {
-        "rssMb": 57.2,
-        "heapUsedMb": 7.28
-      },
-      "progress": {
-        "completed": 402,
-        "failed": 25,
-        "pending": 573
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:24:55.227Z",
-      "elapsedSeconds": 186.69,
+      "timestamp": "2026-03-27T10:14:31.400Z",
+      "elapsedSeconds": 208.65,
       "cpuPercent": 0.13,
       "memory": {
-        "rssMb": 58,
-        "heapUsedMb": 8.25
+        "rssMb": 52.44,
+        "heapUsedMb": 13.06
       },
       "progress": {
-        "completed": 411,
-        "failed": 26,
+        "completed": 407,
+        "failed": 23,
+        "pending": 570
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:14:34.228Z",
+      "elapsedSeconds": 211.48,
+      "cpuPercent": 0.12,
+      "memory": {
+        "rssMb": 52.8,
+        "heapUsedMb": 13.53
+      },
+      "progress": {
+        "completed": 414,
+        "failed": 23,
         "pending": 563
       }
     },
     {
-      "timestamp": "2026-03-27T09:25:01.067Z",
-      "elapsedSeconds": 192.53,
-      "cpuPercent": 0.16,
+      "timestamp": "2026-03-27T10:14:37.053Z",
+      "elapsedSeconds": 214.31,
+      "cpuPercent": 0.22,
       "memory": {
-        "rssMb": 56.42,
-        "heapUsedMb": 8.64
+        "rssMb": 53.8,
+        "heapUsedMb": 13.34
       },
       "progress": {
-        "completed": 415,
-        "failed": 27,
-        "pending": 558
+        "completed": 424,
+        "failed": 23,
+        "pending": 553
       }
     },
     {
-      "timestamp": "2026-03-27T09:25:04.223Z",
-      "elapsedSeconds": 195.68,
-      "cpuPercent": 0.29,
+      "timestamp": "2026-03-27T10:14:40.065Z",
+      "elapsedSeconds": 217.32,
+      "cpuPercent": 0.19,
       "memory": {
-        "rssMb": 56.92,
-        "heapUsedMb": 9.11
+        "rssMb": 54.59,
+        "heapUsedMb": 13.62
       },
       "progress": {
-        "completed": 422,
-        "failed": 27,
-        "pending": 551
+        "completed": 430,
+        "failed": 25,
+        "pending": 545
       }
     },
     {
-      "timestamp": "2026-03-27T09:25:06.522Z",
-      "elapsedSeconds": 197.98,
-      "cpuPercent": 0.13,
+      "timestamp": "2026-03-27T10:14:42.895Z",
+      "elapsedSeconds": 220.15,
+      "cpuPercent": 0.15,
       "memory": {
-        "rssMb": 57.16,
-        "heapUsedMb": 9.61
+        "rssMb": 54.95,
+        "heapUsedMb": 14.13
       },
       "progress": {
-        "completed": 431,
-        "failed": 27,
-        "pending": 542
+        "completed": 437,
+        "failed": 25,
+        "pending": 538
       }
     },
     {
-      "timestamp": "2026-03-27T09:25:09.340Z",
-      "elapsedSeconds": 200.8,
-      "cpuPercent": 0.31,
+      "timestamp": "2026-03-27T10:14:45.562Z",
+      "elapsedSeconds": 222.81,
+      "cpuPercent": 0.52,
       "memory": {
-        "rssMb": 57.42,
-        "heapUsedMb": 9.42
+        "rssMb": 58.31,
+        "heapUsedMb": 7.93
       },
       "progress": {
-        "completed": 439,
-        "failed": 27,
-        "pending": 534
+        "completed": 446,
+        "failed": 25,
+        "pending": 529
       }
     },
     {
-      "timestamp": "2026-03-27T09:25:12.078Z",
-      "elapsedSeconds": 203.54,
-      "cpuPercent": 0.2,
+      "timestamp": "2026-03-27T10:14:48.745Z",
+      "elapsedSeconds": 226,
+      "cpuPercent": 0.09,
       "memory": {
-        "rssMb": 57.66,
-        "heapUsedMb": 9.69
+        "rssMb": 55.47,
+        "heapUsedMb": 8.44
       },
       "progress": {
-        "completed": 445,
-        "failed": 27,
-        "pending": 528
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:25:15.683Z",
-      "elapsedSeconds": 207.14,
-      "cpuPercent": 0.13,
-      "memory": {
-        "rssMb": 58,
-        "heapUsedMb": 10.17
-      },
-      "progress": {
-        "completed": 451,
-        "failed": 27,
+        "completed": 453,
+        "failed": 25,
         "pending": 522
       }
     },
     {
-      "timestamp": "2026-03-27T09:25:19.025Z",
-      "elapsedSeconds": 210.49,
-      "cpuPercent": 0.23,
+      "timestamp": "2026-03-27T10:14:52.764Z",
+      "elapsedSeconds": 230.02,
+      "cpuPercent": 0.2,
       "memory": {
-        "rssMb": 58.06,
-        "heapUsedMb": 9.97
+        "rssMb": 52.61,
+        "heapUsedMb": 9.27
       },
       "progress": {
-        "completed": 461,
-        "failed": 27,
-        "pending": 512
+        "completed": 459,
+        "failed": 25,
+        "pending": 516
       }
     },
     {
-      "timestamp": "2026-03-27T09:25:22.650Z",
-      "elapsedSeconds": 214.11,
-      "cpuPercent": 0.15,
+      "timestamp": "2026-03-27T10:14:55.954Z",
+      "elapsedSeconds": 233.21,
+      "cpuPercent": 0.43,
       "memory": {
-        "rssMb": 58.16,
-        "heapUsedMb": 10.21
+        "rssMb": 48.2,
+        "heapUsedMb": 9.31
       },
       "progress": {
-        "completed": 468,
-        "failed": 27,
-        "pending": 505
+        "completed": 464,
+        "failed": 25,
+        "pending": 511
       }
     },
     {
-      "timestamp": "2026-03-27T09:25:29.305Z",
-      "elapsedSeconds": 220.76,
-      "cpuPercent": 0.18,
+      "timestamp": "2026-03-27T10:14:59.496Z",
+      "elapsedSeconds": 236.75,
+      "cpuPercent": 0.16,
       "memory": {
-        "rssMb": 58.86,
-        "heapUsedMb": 10.51
+        "rssMb": 51.64,
+        "heapUsedMb": 9.78
       },
       "progress": {
-        "completed": 481,
-        "failed": 27,
+        "completed": 470,
+        "failed": 26,
+        "pending": 504
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:15:03.498Z",
+      "elapsedSeconds": 240.75,
+      "cpuPercent": 0.17,
+      "memory": {
+        "rssMb": 52.22,
+        "heapUsedMb": 9.58
+      },
+      "progress": {
+        "completed": 475,
+        "failed": 26,
+        "pending": 499
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:15:08.463Z",
+      "elapsedSeconds": 245.72,
+      "cpuPercent": 0.13,
+      "memory": {
+        "rssMb": 53.16,
+        "heapUsedMb": 9.84
+      },
+      "progress": {
+        "completed": 482,
+        "failed": 26,
         "pending": 492
       }
     },
     {
-      "timestamp": "2026-03-27T09:25:31.917Z",
-      "elapsedSeconds": 223.38,
-      "cpuPercent": 0.23,
+      "timestamp": "2026-03-27T10:15:12.659Z",
+      "elapsedSeconds": 249.91,
+      "cpuPercent": 0.28,
       "memory": {
-        "rssMb": 59.89,
-        "heapUsedMb": 11.02
+        "rssMb": 55.34,
+        "heapUsedMb": 10.38
       },
       "progress": {
-        "completed": 484,
+        "completed": 487,
         "failed": 27,
-        "pending": 489
+        "pending": 486
       }
     },
     {
-      "timestamp": "2026-03-27T09:25:34.330Z",
-      "elapsedSeconds": 225.79,
-      "cpuPercent": 0.2,
+      "timestamp": "2026-03-27T10:15:16.613Z",
+      "elapsedSeconds": 253.87,
+      "cpuPercent": 0.1,
       "memory": {
-        "rssMb": 60.45,
-        "heapUsedMb": 11.25
+        "rssMb": 55.63,
+        "heapUsedMb": 10.63
       },
       "progress": {
-        "completed": 492,
+        "completed": 493,
         "failed": 27,
-        "pending": 481
+        "pending": 480
       }
     },
     {
-      "timestamp": "2026-03-27T09:25:37.496Z",
-      "elapsedSeconds": 228.96,
-      "cpuPercent": 0.11,
+      "timestamp": "2026-03-27T10:15:21.077Z",
+      "elapsedSeconds": 258.33,
+      "cpuPercent": 0.16,
       "memory": {
-        "rssMb": 60.3,
-        "heapUsedMb": 11.05
+        "rssMb": 55.98,
+        "heapUsedMb": 10.43
       },
       "progress": {
         "completed": 499,
@@ -783,26 +782,40 @@
       }
     },
     {
-      "timestamp": "2026-03-27T09:25:40.667Z",
-      "elapsedSeconds": 232.13,
-      "cpuPercent": 0.15,
+      "timestamp": "2026-03-27T10:15:25.251Z",
+      "elapsedSeconds": 262.5,
+      "cpuPercent": 0.1,
       "memory": {
-        "rssMb": 60.81,
-        "heapUsedMb": 11.51
+        "rssMb": 56.63,
+        "heapUsedMb": 10.91
       },
       "progress": {
-        "completed": 508,
+        "completed": 506,
         "failed": 27,
-        "pending": 465
+        "pending": 467
       }
     },
     {
-      "timestamp": "2026-03-27T09:25:43.883Z",
-      "elapsedSeconds": 235.34,
-      "cpuPercent": 0.18,
+      "timestamp": "2026-03-27T10:15:28.514Z",
+      "elapsedSeconds": 265.77,
+      "cpuPercent": 0.12,
       "memory": {
-        "rssMb": 59.03,
-        "heapUsedMb": 11.99
+        "rssMb": 56.27,
+        "heapUsedMb": 11.17
+      },
+      "progress": {
+        "completed": 509,
+        "failed": 27,
+        "pending": 464
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:15:32.736Z",
+      "elapsedSeconds": 269.99,
+      "cpuPercent": 0.11,
+      "memory": {
+        "rssMb": 56.34,
+        "heapUsedMb": 10.98
       },
       "progress": {
         "completed": 516,
@@ -811,916 +824,972 @@
       }
     },
     {
-      "timestamp": "2026-03-27T09:25:46.727Z",
-      "elapsedSeconds": 238.19,
-      "cpuPercent": 0.2,
+      "timestamp": "2026-03-27T10:15:37.226Z",
+      "elapsedSeconds": 274.48,
+      "cpuPercent": 0.11,
       "memory": {
-        "rssMb": 58.31,
-        "heapUsedMb": 11.68
+        "rssMb": 52.22,
+        "heapUsedMb": 11.45
       },
       "progress": {
-        "completed": 520,
+        "completed": 523,
         "failed": 27,
-        "pending": 453
+        "pending": 450
       }
     },
     {
-      "timestamp": "2026-03-27T09:25:49.873Z",
-      "elapsedSeconds": 241.33,
-      "cpuPercent": 0.21,
+      "timestamp": "2026-03-27T10:15:41.249Z",
+      "elapsedSeconds": 278.5,
+      "cpuPercent": 0.15,
       "memory": {
-        "rssMb": 56.53,
-        "heapUsedMb": 12.41
+        "rssMb": 54.16,
+        "heapUsedMb": 11.25
       },
       "progress": {
-        "completed": 527,
+        "completed": 528,
         "failed": 28,
-        "pending": 445
+        "pending": 444
       }
     },
     {
-      "timestamp": "2026-03-27T09:25:52.646Z",
-      "elapsedSeconds": 244.11,
-      "cpuPercent": 0.12,
+      "timestamp": "2026-03-27T10:15:45.075Z",
+      "elapsedSeconds": 282.33,
+      "cpuPercent": 0.13,
       "memory": {
-        "rssMb": 57.17,
-        "heapUsedMb": 12.45
+        "rssMb": 53.53,
+        "heapUsedMb": 11.5
       },
       "progress": {
-        "completed": 535,
+        "completed": 532,
         "failed": 28,
-        "pending": 437
+        "pending": 440
       }
     },
     {
-      "timestamp": "2026-03-27T09:25:55.735Z",
-      "elapsedSeconds": 247.19,
-      "cpuPercent": 0.2,
+      "timestamp": "2026-03-27T10:15:49.093Z",
+      "elapsedSeconds": 286.35,
+      "cpuPercent": 0.14,
       "memory": {
-        "rssMb": 52.95,
-        "heapUsedMb": 12.23
+        "rssMb": 53.41,
+        "heapUsedMb": 11.77
       },
       "progress": {
-        "completed": 541,
+        "completed": 539,
+        "failed": 28,
+        "pending": 433
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:15:55.717Z",
+      "elapsedSeconds": 292.97,
+      "cpuPercent": 0.07,
+      "memory": {
+        "rssMb": 51.95,
+        "heapUsedMb": 11.8
+      },
+      "progress": {
+        "completed": 547,
         "failed": 29,
-        "pending": 430
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:25:58.852Z",
-      "elapsedSeconds": 250.31,
-      "cpuPercent": 0.21,
-      "memory": {
-        "rssMb": 51.47,
-        "heapUsedMb": 12.5
-      },
-      "progress": {
-        "completed": 546,
-        "failed": 30,
         "pending": 424
       }
     },
     {
-      "timestamp": "2026-03-27T09:26:01.959Z",
-      "elapsedSeconds": 253.42,
-      "cpuPercent": 0.15,
+      "timestamp": "2026-03-27T10:15:59.284Z",
+      "elapsedSeconds": 296.54,
+      "cpuPercent": 0.17,
       "memory": {
-        "rssMb": 52.7,
-        "heapUsedMb": 12.99
+        "rssMb": 50.94,
+        "heapUsedMb": 12.08
       },
       "progress": {
-        "completed": 555,
-        "failed": 30,
-        "pending": 415
+        "completed": 552,
+        "failed": 29,
+        "pending": 419
       }
     },
     {
-      "timestamp": "2026-03-27T09:26:04.781Z",
-      "elapsedSeconds": 256.24,
-      "cpuPercent": 0.23,
+      "timestamp": "2026-03-27T10:16:02.837Z",
+      "elapsedSeconds": 300.09,
+      "cpuPercent": 0.21,
       "memory": {
-        "rssMb": 53.39,
-        "heapUsedMb": 13.24
+        "rssMb": 53.7,
+        "heapUsedMb": 12.57
       },
       "progress": {
-        "completed": 561,
-        "failed": 30,
-        "pending": 409
+        "completed": 560,
+        "failed": 29,
+        "pending": 411
       }
     },
     {
-      "timestamp": "2026-03-27T09:26:07.765Z",
-      "elapsedSeconds": 259.23,
-      "cpuPercent": 0.28,
+      "timestamp": "2026-03-27T10:16:07.305Z",
+      "elapsedSeconds": 304.56,
+      "cpuPercent": 0.14,
       "memory": {
-        "rssMb": 54.28,
-        "heapUsedMb": 13.06
+        "rssMb": 53.92,
+        "heapUsedMb": 12.37
       },
       "progress": {
-        "completed": 568,
-        "failed": 30,
-        "pending": 402
+        "completed": 570,
+        "failed": 29,
+        "pending": 401
       }
     },
     {
-      "timestamp": "2026-03-27T09:26:10.614Z",
-      "elapsedSeconds": 262.07,
-      "cpuPercent": 0.26,
+      "timestamp": "2026-03-27T10:16:15.036Z",
+      "elapsedSeconds": 312.29,
+      "cpuPercent": 0.1,
       "memory": {
-        "rssMb": 55.09,
-        "heapUsedMb": 13.57
+        "rssMb": 54,
+        "heapUsedMb": 13.11
       },
       "progress": {
         "completed": 576,
-        "failed": 30,
-        "pending": 394
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:26:16.066Z",
-      "elapsedSeconds": 267.53,
-      "cpuPercent": 0.16,
-      "memory": {
-        "rssMb": 56.23,
-        "heapUsedMb": 13.82
-      },
-      "progress": {
-        "completed": 586,
-        "failed": 31,
-        "pending": 383
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:26:19.157Z",
-      "elapsedSeconds": 270.62,
-      "cpuPercent": 0.45,
-      "memory": {
-        "rssMb": 58.75,
-        "heapUsedMb": 7.46
-      },
-      "progress": {
-        "completed": 594,
-        "failed": 31,
-        "pending": 375
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:26:23.513Z",
-      "elapsedSeconds": 274.97,
-      "cpuPercent": 0.24,
-      "memory": {
-        "rssMb": 60.58,
-        "heapUsedMb": 8.44
-      },
-      "progress": {
-        "completed": 604,
-        "failed": 31,
-        "pending": 365
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:26:26.648Z",
-      "elapsedSeconds": 278.11,
-      "cpuPercent": 0.18,
-      "memory": {
-        "rssMb": 61.67,
-        "heapUsedMb": 9.36
-      },
-      "progress": {
-        "completed": 614,
-        "failed": 31,
-        "pending": 355
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:26:30.460Z",
-      "elapsedSeconds": 281.92,
-      "cpuPercent": 0.15,
-      "memory": {
-        "rssMb": 61.55,
-        "heapUsedMb": 9.61
-      },
-      "progress": {
-        "completed": 620,
         "failed": 32,
-        "pending": 348
+        "pending": 392
       }
     },
     {
-      "timestamp": "2026-03-27T09:26:35.454Z",
-      "elapsedSeconds": 286.91,
+      "timestamp": "2026-03-27T10:16:19.793Z",
+      "elapsedSeconds": 317.05,
+      "cpuPercent": 0.17,
+      "memory": {
+        "rssMb": 54.41,
+        "heapUsedMb": 12.89
+      },
+      "progress": {
+        "completed": 582,
+        "failed": 32,
+        "pending": 386
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:16:24.365Z",
+      "elapsedSeconds": 321.62,
+      "cpuPercent": 0.12,
+      "memory": {
+        "rssMb": 54.7,
+        "heapUsedMb": 13.17
+      },
+      "progress": {
+        "completed": 588,
+        "failed": 32,
+        "pending": 380
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:16:28.252Z",
+      "elapsedSeconds": 325.5,
+      "cpuPercent": 0.14,
+      "memory": {
+        "rssMb": 55.23,
+        "heapUsedMb": 13.69
+      },
+      "progress": {
+        "completed": 595,
+        "failed": 33,
+        "pending": 372
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:16:32.913Z",
+      "elapsedSeconds": 330.17,
       "cpuPercent": 0.13,
       "memory": {
-        "rssMb": 60.75,
-        "heapUsedMb": 9.73
+        "rssMb": 55.58,
+        "heapUsedMb": 13.46
       },
       "progress": {
-        "completed": 632,
-        "failed": 32,
-        "pending": 336
+        "completed": 601,
+        "failed": 35,
+        "pending": 364
       }
     },
     {
-      "timestamp": "2026-03-27T09:26:38.735Z",
-      "elapsedSeconds": 290.19,
-      "cpuPercent": 0.16,
+      "timestamp": "2026-03-27T10:16:36.313Z",
+      "elapsedSeconds": 333.57,
+      "cpuPercent": 0.71,
       "memory": {
-        "rssMb": 60.81,
-        "heapUsedMb": 9.96
+        "rssMb": 58.81,
+        "heapUsedMb": 7.62
       },
       "progress": {
-        "completed": 638,
-        "failed": 33,
-        "pending": 329
+        "completed": 603,
+        "failed": 35,
+        "pending": 362
       }
     },
     {
-      "timestamp": "2026-03-27T09:26:41.725Z",
-      "elapsedSeconds": 293.19,
-      "cpuPercent": 0.18,
+      "timestamp": "2026-03-27T10:16:40.485Z",
+      "elapsedSeconds": 337.74,
+      "cpuPercent": 0.14,
       "memory": {
-        "rssMb": 61.28,
-        "heapUsedMb": 10.5
+        "rssMb": 59.36,
+        "heapUsedMb": 8.64
       },
       "progress": {
-        "completed": 646,
+        "completed": 613,
         "failed": 34,
-        "pending": 320
+        "pending": 353
       }
     },
     {
-      "timestamp": "2026-03-27T09:26:45.437Z",
-      "elapsedSeconds": 296.9,
-      "cpuPercent": 0.25,
+      "timestamp": "2026-03-27T10:16:46.194Z",
+      "elapsedSeconds": 343.45,
+      "cpuPercent": 0.19,
       "memory": {
-        "rssMb": 61.13,
-        "heapUsedMb": 10.75
+        "rssMb": 61.23,
+        "heapUsedMb": 9.49
       },
       "progress": {
-        "completed": 651,
-        "failed": 37,
-        "pending": 312
+        "completed": 622,
+        "failed": 35,
+        "pending": 343
       }
     },
     {
-      "timestamp": "2026-03-27T09:26:47.675Z",
-      "elapsedSeconds": 299.13,
-      "cpuPercent": 0.16,
+      "timestamp": "2026-03-27T10:16:51.399Z",
+      "elapsedSeconds": 348.65,
+      "cpuPercent": 0.15,
       "memory": {
-        "rssMb": 61.02,
-        "heapUsedMb": 10.52
+        "rssMb": 61.53,
+        "heapUsedMb": 9.83
+      },
+      "progress": {
+        "completed": 627,
+        "failed": 36,
+        "pending": 337
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:16:56.288Z",
+      "elapsedSeconds": 353.54,
+      "cpuPercent": 0.1,
+      "memory": {
+        "rssMb": 55.83,
+        "heapUsedMb": 10.35
+      },
+      "progress": {
+        "completed": 630,
+        "failed": 36,
+        "pending": 334
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:17:00.150Z",
+      "elapsedSeconds": 357.4,
+      "cpuPercent": 0.11,
+      "memory": {
+        "rssMb": 52.73,
+        "heapUsedMb": 10.58
+      },
+      "progress": {
+        "completed": 641,
+        "failed": 37,
+        "pending": 322
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:17:10.994Z",
+      "elapsedSeconds": 368.25,
+      "cpuPercent": 0.07,
+      "memory": {
+        "rssMb": 52.38,
+        "heapUsedMb": 10.88
+      },
+      "progress": {
+        "completed": 645,
+        "failed": 37,
+        "pending": 318
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:17:17.311Z",
+      "elapsedSeconds": 374.56,
+      "cpuPercent": 0.13,
+      "memory": {
+        "rssMb": 54.06,
+        "heapUsedMb": 11.12
+      },
+      "progress": {
+        "completed": 648,
+        "failed": 38,
+        "pending": 314
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:17:23.000Z",
+      "elapsedSeconds": 380.25,
+      "cpuPercent": 0.09,
+      "memory": {
+        "rssMb": 54.89,
+        "heapUsedMb": 11.41
       },
       "progress": {
         "completed": 657,
-        "failed": 37,
-        "pending": 306
+        "failed": 40,
+        "pending": 303
       }
     },
     {
-      "timestamp": "2026-03-27T09:26:50.527Z",
-      "elapsedSeconds": 301.99,
+      "timestamp": "2026-03-27T10:17:25.416Z",
+      "elapsedSeconds": 382.67,
+      "cpuPercent": 0.36,
+      "memory": {
+        "rssMb": 56.94,
+        "heapUsedMb": 11.21
+      },
+      "progress": {
+        "completed": 664,
+        "failed": 41,
+        "pending": 295
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:17:29.531Z",
+      "elapsedSeconds": 386.78,
       "cpuPercent": 0.18,
       "memory": {
-        "rssMb": 61.08,
-        "heapUsedMb": 11.06
+        "rssMb": 57.56,
+        "heapUsedMb": 11.48
       },
       "progress": {
-        "completed": 665,
-        "failed": 38,
-        "pending": 297
+        "completed": 676,
+        "failed": 41,
+        "pending": 283
       }
     },
     {
-      "timestamp": "2026-03-27T09:26:53.315Z",
-      "elapsedSeconds": 304.77,
-      "cpuPercent": 0.2,
+      "timestamp": "2026-03-27T10:17:33.569Z",
+      "elapsedSeconds": 390.82,
+      "cpuPercent": 0.15,
       "memory": {
-        "rssMb": 60.97,
-        "heapUsedMb": 10.82
+        "rssMb": 57.47,
+        "heapUsedMb": 11.78
       },
       "progress": {
-        "completed": 669,
-        "failed": 40,
-        "pending": 291
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:26:56.738Z",
-      "elapsedSeconds": 308.2,
-      "cpuPercent": 0.2,
-      "memory": {
-        "rssMb": 61.11,
-        "heapUsedMb": 11.08
-      },
-      "progress": {
-        "completed": 678,
-        "failed": 40,
-        "pending": 282
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:27:00.780Z",
-      "elapsedSeconds": 312.24,
-      "cpuPercent": 0.17,
-      "memory": {
-        "rssMb": 60.5,
-        "heapUsedMb": 11.37
-      },
-      "progress": {
-        "completed": 687,
-        "failed": 40,
+        "completed": 685,
+        "failed": 42,
         "pending": 273
       }
     },
     {
-      "timestamp": "2026-03-27T09:27:03.584Z",
-      "elapsedSeconds": 315.04,
-      "cpuPercent": 0.18,
+      "timestamp": "2026-03-27T10:17:36.401Z",
+      "elapsedSeconds": 393.65,
+      "cpuPercent": 0.14,
       "memory": {
-        "rssMb": 59.78,
-        "heapUsedMb": 11.92
+        "rssMb": 58.05,
+        "heapUsedMb": 12.28
       },
       "progress": {
-        "completed": 696,
+        "completed": 692,
+        "failed": 42,
+        "pending": 266
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:17:39.939Z",
+      "elapsedSeconds": 397.19,
+      "cpuPercent": 0.19,
+      "memory": {
+        "rssMb": 59.28,
+        "heapUsedMb": 12.57
+      },
+      "progress": {
+        "completed": 702,
         "failed": 41,
-        "pending": 263
+        "pending": 257
       }
     },
     {
-      "timestamp": "2026-03-27T09:27:07.277Z",
-      "elapsedSeconds": 318.74,
-      "cpuPercent": 0.22,
+      "timestamp": "2026-03-27T10:17:44.488Z",
+      "elapsedSeconds": 401.74,
+      "cpuPercent": 0.15,
       "memory": {
-        "rssMb": 60.02,
-        "heapUsedMb": 11.7
-      },
-      "progress": {
-        "completed": 704,
-        "failed": 40,
-        "pending": 256
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:27:10.363Z",
-      "elapsedSeconds": 321.82,
-      "cpuPercent": 0.06,
-      "memory": {
-        "rssMb": 59.72,
-        "heapUsedMb": 12.21
+        "rssMb": 59.55,
+        "heapUsedMb": 12.34
       },
       "progress": {
         "completed": 712,
-        "failed": 40,
-        "pending": 248
+        "failed": 41,
+        "pending": 247
       }
     },
     {
-      "timestamp": "2026-03-27T09:27:13.182Z",
-      "elapsedSeconds": 324.64,
-      "cpuPercent": 0.18,
+      "timestamp": "2026-03-27T10:17:47.640Z",
+      "elapsedSeconds": 404.89,
+      "cpuPercent": 0.14,
       "memory": {
-        "rssMb": 59.81,
-        "heapUsedMb": 11.99
+        "rssMb": 59.61,
+        "heapUsedMb": 12.62
       },
       "progress": {
-        "completed": 720,
-        "failed": 40,
+        "completed": 719,
+        "failed": 41,
         "pending": 240
       }
     },
     {
-      "timestamp": "2026-03-27T09:27:16.006Z",
-      "elapsedSeconds": 327.47,
-      "cpuPercent": 0.16,
+      "timestamp": "2026-03-27T10:17:50.760Z",
+      "elapsedSeconds": 408.01,
+      "cpuPercent": 0.14,
       "memory": {
-        "rssMb": 54.83,
-        "heapUsedMb": 12.24
+        "rssMb": 60,
+        "heapUsedMb": 13.12
       },
       "progress": {
-        "completed": 730,
-        "failed": 40,
-        "pending": 230
+        "completed": 728,
+        "failed": 43,
+        "pending": 229
       }
     },
     {
-      "timestamp": "2026-03-27T09:27:19.576Z",
-      "elapsedSeconds": 331.04,
-      "cpuPercent": 0.33,
+      "timestamp": "2026-03-27T10:17:54.855Z",
+      "elapsedSeconds": 412.11,
+      "cpuPercent": 0.17,
       "memory": {
-        "rssMb": 56.52,
-        "heapUsedMb": 12.8
+        "rssMb": 60.19,
+        "heapUsedMb": 13.39
       },
       "progress": {
-        "completed": 738,
-        "failed": 40,
-        "pending": 222
+        "completed": 736,
+        "failed": 46,
+        "pending": 218
       }
     },
     {
-      "timestamp": "2026-03-27T09:27:24.947Z",
-      "elapsedSeconds": 336.41,
-      "cpuPercent": 0.15,
+      "timestamp": "2026-03-27T10:17:57.370Z",
+      "elapsedSeconds": 414.62,
+      "cpuPercent": 0.19,
       "memory": {
-        "rssMb": 57.77,
-        "heapUsedMb": 13.06
+        "rssMb": 57.98,
+        "heapUsedMb": 13.18
       },
       "progress": {
-        "completed": 743,
-        "failed": 40,
-        "pending": 217
+        "completed": 748,
+        "failed": 46,
+        "pending": 206
       }
     },
     {
-      "timestamp": "2026-03-27T09:27:28.420Z",
-      "elapsedSeconds": 339.88,
-      "cpuPercent": 0.1,
+      "timestamp": "2026-03-27T10:18:04.344Z",
+      "elapsedSeconds": 421.6,
+      "cpuPercent": 0.12,
       "memory": {
-        "rssMb": 57.77,
-        "heapUsedMb": 12.83
+        "rssMb": 53.28,
+        "heapUsedMb": 13.48
       },
       "progress": {
-        "completed": 751,
-        "failed": 41,
-        "pending": 208
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:27:32.059Z",
-      "elapsedSeconds": 343.52,
-      "cpuPercent": 0.18,
-      "memory": {
-        "rssMb": 57.83,
-        "heapUsedMb": 13.35
-      },
-      "progress": {
-        "completed": 754,
-        "failed": 41,
-        "pending": 205
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:27:35.757Z",
-      "elapsedSeconds": 347.22,
-      "cpuPercent": 0.2,
-      "memory": {
-        "rssMb": 56.44,
-        "heapUsedMb": 13.14
-      },
-      "progress": {
-        "completed": 761,
-        "failed": 41,
+        "completed": 756,
+        "failed": 46,
         "pending": 198
       }
     },
     {
-      "timestamp": "2026-03-27T09:27:41.171Z",
-      "elapsedSeconds": 352.63,
-      "cpuPercent": 0.17,
-      "memory": {
-        "rssMb": 56.67,
-        "heapUsedMb": 13.4
-      },
-      "progress": {
-        "completed": 765,
-        "failed": 42,
-        "pending": 193
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:27:46.626Z",
-      "elapsedSeconds": 358.09,
-      "cpuPercent": 0.3,
-      "memory": {
-        "rssMb": 59.48,
-        "heapUsedMb": 6.97
-      },
-      "progress": {
-        "completed": 777,
-        "failed": 42,
-        "pending": 181
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:27:50.495Z",
-      "elapsedSeconds": 361.95,
+      "timestamp": "2026-03-27T10:18:07.430Z",
+      "elapsedSeconds": 424.68,
       "cpuPercent": 0.14,
       "memory": {
-        "rssMb": 60.3,
-        "heapUsedMb": 8.02
+        "rssMb": 54.22,
+        "heapUsedMb": 14.02
       },
       "progress": {
-        "completed": 781,
-        "failed": 42,
-        "pending": 177
+        "completed": 764,
+        "failed": 46,
+        "pending": 190
       }
     },
     {
-      "timestamp": "2026-03-27T09:27:54.281Z",
-      "elapsedSeconds": 365.74,
-      "cpuPercent": 0.19,
+      "timestamp": "2026-03-27T10:18:11.071Z",
+      "elapsedSeconds": 428.32,
+      "cpuPercent": 0.23,
       "memory": {
-        "rssMb": 61.25,
-        "heapUsedMb": 7.52
+        "rssMb": 55.36,
+        "heapUsedMb": 13.78
       },
       "progress": {
-        "completed": 789,
-        "failed": 43,
-        "pending": 168
+        "completed": 771,
+        "failed": 46,
+        "pending": 183
       }
     },
     {
-      "timestamp": "2026-03-27T09:27:58.396Z",
-      "elapsedSeconds": 369.86,
-      "cpuPercent": 0.17,
+      "timestamp": "2026-03-27T10:18:13.888Z",
+      "elapsedSeconds": 431.14,
+      "cpuPercent": 0.63,
       "memory": {
-        "rssMb": 60.69,
-        "heapUsedMb": 7.8
+        "rssMb": 58.89,
+        "heapUsedMb": 7.09
       },
       "progress": {
-        "completed": 791,
-        "failed": 43,
-        "pending": 166
+        "completed": 780,
+        "failed": 47,
+        "pending": 173
       }
     },
     {
-      "timestamp": "2026-03-27T09:28:02.411Z",
-      "elapsedSeconds": 373.87,
-      "cpuPercent": 0.17,
+      "timestamp": "2026-03-27T10:18:17.138Z",
+      "elapsedSeconds": 434.39,
+      "cpuPercent": 0.21,
       "memory": {
-        "rssMb": 57.2,
-        "heapUsedMb": 8.35
+        "rssMb": 59.55,
+        "heapUsedMb": 8.05
       },
       "progress": {
-        "completed": 799,
-        "failed": 43,
-        "pending": 158
+        "completed": 786,
+        "failed": 47,
+        "pending": 167
       }
     },
     {
-      "timestamp": "2026-03-27T09:28:07.489Z",
-      "elapsedSeconds": 378.95,
-      "cpuPercent": 0.09,
+      "timestamp": "2026-03-27T10:18:20.822Z",
+      "elapsedSeconds": 438.07,
+      "cpuPercent": 0.2,
       "memory": {
-        "rssMb": 57.38,
-        "heapUsedMb": 8.12
+        "rssMb": 60.16,
+        "heapUsedMb": 9.1
       },
       "progress": {
-        "completed": 808,
-        "failed": 43,
-        "pending": 149
+        "completed": 793,
+        "failed": 47,
+        "pending": 160
       }
     },
     {
-      "timestamp": "2026-03-27T09:28:10.932Z",
-      "elapsedSeconds": 382.39,
+      "timestamp": "2026-03-27T10:18:24.177Z",
+      "elapsedSeconds": 441.43,
+      "cpuPercent": 0.08,
+      "memory": {
+        "rssMb": 60,
+        "heapUsedMb": 8.61
+      },
+      "progress": {
+        "completed": 801,
+        "failed": 47,
+        "pending": 152
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:18:26.998Z",
+      "elapsedSeconds": 444.25,
       "cpuPercent": 0.14,
       "memory": {
-        "rssMb": 56.56,
-        "heapUsedMb": 8.37
+        "rssMb": 60.81,
+        "heapUsedMb": 9.15
       },
       "progress": {
-        "completed": 811,
-        "failed": 43,
-        "pending": 146
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:28:14.400Z",
-      "elapsedSeconds": 385.86,
-      "cpuPercent": 0.16,
-      "memory": {
-        "rssMb": 53.45,
-        "heapUsedMb": 8.91
-      },
-      "progress": {
-        "completed": 818,
-        "failed": 43,
+        "completed": 812,
+        "failed": 49,
         "pending": 139
       }
     },
     {
-      "timestamp": "2026-03-27T09:28:18.418Z",
-      "elapsedSeconds": 389.88,
-      "cpuPercent": 0.14,
-      "memory": {
-        "rssMb": 54.2,
-        "heapUsedMb": 8.69
-      },
-      "progress": {
-        "completed": 825,
-        "failed": 44,
-        "pending": 131
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:28:23.135Z",
-      "elapsedSeconds": 394.6,
-      "cpuPercent": 0.15,
-      "memory": {
-        "rssMb": 54.59,
-        "heapUsedMb": 8.97
-      },
-      "progress": {
-        "completed": 836,
-        "failed": 44,
-        "pending": 120
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:28:25.646Z",
-      "elapsedSeconds": 397.11,
+      "timestamp": "2026-03-27T10:18:32.175Z",
+      "elapsedSeconds": 449.43,
       "cpuPercent": 0.17,
       "memory": {
-        "rssMb": 55.13,
-        "heapUsedMb": 9.45
+        "rssMb": 61.55,
+        "heapUsedMb": 9.41
+      },
+      "progress": {
+        "completed": 821,
+        "failed": 49,
+        "pending": 130
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:18:35.346Z",
+      "elapsedSeconds": 452.6,
+      "cpuPercent": 0.19,
+      "memory": {
+        "rssMb": 61.56,
+        "heapUsedMb": 9.63
+      },
+      "progress": {
+        "completed": 827,
+        "failed": 49,
+        "pending": 124
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:18:38.555Z",
+      "elapsedSeconds": 455.81,
+      "cpuPercent": 0.14,
+      "memory": {
+        "rssMb": 61.64,
+        "heapUsedMb": 9.92
+      },
+      "progress": {
+        "completed": 837,
+        "failed": 49,
+        "pending": 114
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:18:41.720Z",
+      "elapsedSeconds": 458.97,
+      "cpuPercent": 0.24,
+      "memory": {
+        "rssMb": 62.17,
+        "heapUsedMb": 10.45
       },
       "progress": {
         "completed": 843,
-        "failed": 44,
-        "pending": 113
+        "failed": 49,
+        "pending": 108
       }
     },
     {
-      "timestamp": "2026-03-27T09:28:29.722Z",
-      "elapsedSeconds": 401.18,
+      "timestamp": "2026-03-27T10:18:44.836Z",
+      "elapsedSeconds": 462.09,
       "cpuPercent": 0.19,
       "memory": {
-        "rssMb": 54.8,
-        "heapUsedMb": 9.71
+        "rssMb": 62.14,
+        "heapUsedMb": 10.24
       },
       "progress": {
-        "completed": 851,
-        "failed": 44,
-        "pending": 105
+        "completed": 850,
+        "failed": 50,
+        "pending": 100
       }
     },
     {
-      "timestamp": "2026-03-27T09:28:32.777Z",
-      "elapsedSeconds": 404.24,
+      "timestamp": "2026-03-27T10:18:48.365Z",
+      "elapsedSeconds": 465.62,
       "cpuPercent": 0.12,
       "memory": {
-        "rssMb": 55.08,
-        "heapUsedMb": 10.25
+        "rssMb": 59.59,
+        "heapUsedMb": 10.5
       },
       "progress": {
-        "completed": 857,
-        "failed": 44,
-        "pending": 99
+        "completed": 859,
+        "failed": 50,
+        "pending": 91
       }
     },
     {
-      "timestamp": "2026-03-27T09:28:36.342Z",
-      "elapsedSeconds": 407.8,
-      "cpuPercent": 0.19,
+      "timestamp": "2026-03-27T10:18:51.865Z",
+      "elapsedSeconds": 469.12,
+      "cpuPercent": 0.12,
       "memory": {
-        "rssMb": 55.89,
-        "heapUsedMb": 9.98
+        "rssMb": 60.11,
+        "heapUsedMb": 11
       },
       "progress": {
-        "completed": 867,
-        "failed": 44,
-        "pending": 89
+        "completed": 865,
+        "failed": 51,
+        "pending": 84
       }
     },
     {
-      "timestamp": "2026-03-27T09:28:39.470Z",
-      "elapsedSeconds": 410.93,
-      "cpuPercent": 0.2,
+      "timestamp": "2026-03-27T10:18:55.151Z",
+      "elapsedSeconds": 472.4,
+      "cpuPercent": 0.23,
       "memory": {
-        "rssMb": 56.52,
-        "heapUsedMb": 10.27
+        "rssMb": 56.77,
+        "heapUsedMb": 10.78
       },
       "progress": {
-        "completed": 877,
-        "failed": 44,
-        "pending": 79
+        "completed": 872,
+        "failed": 51,
+        "pending": 77
       }
     },
     {
-      "timestamp": "2026-03-27T09:28:43.366Z",
-      "elapsedSeconds": 414.83,
+      "timestamp": "2026-03-27T10:18:58.527Z",
+      "elapsedSeconds": 475.78,
       "cpuPercent": 0.16,
       "memory": {
-        "rssMb": 53.86,
-        "heapUsedMb": 10.82
+        "rssMb": 53,
+        "heapUsedMb": 11.08
       },
       "progress": {
-        "completed": 883,
-        "failed": 45,
-        "pending": 72
+        "completed": 882,
+        "failed": 51,
+        "pending": 67
       }
     },
     {
-      "timestamp": "2026-03-27T09:28:47.398Z",
-      "elapsedSeconds": 418.86,
-      "cpuPercent": 0.16,
+      "timestamp": "2026-03-27T10:19:01.810Z",
+      "elapsedSeconds": 479.06,
+      "cpuPercent": 0.13,
       "memory": {
-        "rssMb": 55.25,
-        "heapUsedMb": 11.05
+        "rssMb": 54.11,
+        "heapUsedMb": 11.59
       },
       "progress": {
-        "completed": 893,
-        "failed": 45,
-        "pending": 62
+        "completed": 891,
+        "failed": 51,
+        "pending": 58
       }
     },
     {
-      "timestamp": "2026-03-27T09:28:53.137Z",
-      "elapsedSeconds": 424.6,
-      "cpuPercent": 0.11,
+      "timestamp": "2026-03-27T10:19:04.607Z",
+      "elapsedSeconds": 481.86,
+      "cpuPercent": 0.22,
       "memory": {
-        "rssMb": 55.84,
-        "heapUsedMb": 11.35
+        "rssMb": 54.69,
+        "heapUsedMb": 11.36
       },
       "progress": {
-        "completed": 907,
-        "failed": 45,
-        "pending": 48
+        "completed": 897,
+        "failed": 52,
+        "pending": 51
       }
     },
     {
-      "timestamp": "2026-03-27T09:28:57.403Z",
-      "elapsedSeconds": 428.86,
+      "timestamp": "2026-03-27T10:19:07.606Z",
+      "elapsedSeconds": 484.86,
+      "cpuPercent": 0.17,
+      "memory": {
+        "rssMb": 55.16,
+        "heapUsedMb": 11.66
+      },
+      "progress": {
+        "completed": 905,
+        "failed": 54,
+        "pending": 41
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:19:11.128Z",
+      "elapsedSeconds": 488.38,
+      "cpuPercent": 0.14,
+      "memory": {
+        "rssMb": 55.61,
+        "heapUsedMb": 11.69
+      },
+      "progress": {
+        "completed": 909,
+        "failed": 54,
+        "pending": 37
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:19:14.428Z",
+      "elapsedSeconds": 491.68,
       "cpuPercent": 0.15,
       "memory": {
-        "rssMb": 53.2,
-        "heapUsedMb": 11.11
+        "rssMb": 55.72,
+        "heapUsedMb": 11.97
       },
       "progress": {
-        "completed": 915,
-        "failed": 45,
-        "pending": 40
+        "completed": 917,
+        "failed": 54,
+        "pending": 29
       }
     },
     {
-      "timestamp": "2026-03-27T09:29:00.299Z",
-      "elapsedSeconds": 431.76,
-      "cpuPercent": 0.2,
-      "memory": {
-        "rssMb": 52.97,
-        "heapUsedMb": 11.38
-      },
-      "progress": {
-        "completed": 925,
-        "failed": 45,
-        "pending": 30
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:29:03.586Z",
-      "elapsedSeconds": 435.05,
-      "cpuPercent": 0.14,
-      "memory": {
-        "rssMb": 53.86,
-        "heapUsedMb": 11.92
-      },
-      "progress": {
-        "completed": 932,
-        "failed": 45,
-        "pending": 23
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:29:06.906Z",
-      "elapsedSeconds": 438.37,
-      "cpuPercent": 0.18,
-      "memory": {
-        "rssMb": 54.75,
-        "heapUsedMb": 11.72
-      },
-      "progress": {
-        "completed": 939,
-        "failed": 46,
-        "pending": 15
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:29:09.950Z",
-      "elapsedSeconds": 441.41,
-      "cpuPercent": 0.14,
-      "memory": {
-        "rssMb": 54.7,
-        "heapUsedMb": 11.98
-      },
-      "progress": {
-        "completed": 947,
-        "failed": 46,
-        "pending": 7
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:29:13.759Z",
-      "elapsedSeconds": 445.22,
-      "cpuPercent": 0.24,
-      "memory": {
-        "rssMb": 54.89,
-        "heapUsedMb": 12.27
-      },
-      "progress": {
-        "completed": 955,
-        "failed": 39,
-        "pending": 6
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:29:17.132Z",
-      "elapsedSeconds": 448.59,
+      "timestamp": "2026-03-27T10:19:19.337Z",
+      "elapsedSeconds": 496.59,
       "cpuPercent": 0.13,
       "memory": {
-        "rssMb": 55.25,
-        "heapUsedMb": 12.79
+        "rssMb": 56.28,
+        "heapUsedMb": 12.49
       },
       "progress": {
-        "completed": 963,
-        "failed": 30,
-        "pending": 7
+        "completed": 924,
+        "failed": 56,
+        "pending": 20
       }
     },
     {
-      "timestamp": "2026-03-27T09:29:21.261Z",
-      "elapsedSeconds": 452.72,
-      "cpuPercent": 0.13,
+      "timestamp": "2026-03-27T10:19:23.731Z",
+      "elapsedSeconds": 500.98,
+      "cpuPercent": 0.22,
       "memory": {
-        "rssMb": 56.06,
-        "heapUsedMb": 13.08
+        "rssMb": 54.63,
+        "heapUsedMb": 12.77
       },
       "progress": {
-        "completed": 971,
-        "failed": 23,
-        "pending": 6
+        "completed": 926,
+        "failed": 58,
+        "pending": 16
       }
     },
     {
-      "timestamp": "2026-03-27T09:29:24.248Z",
-      "elapsedSeconds": 455.71,
-      "cpuPercent": 0.18,
+      "timestamp": "2026-03-27T10:19:28.694Z",
+      "elapsedSeconds": 505.95,
+      "cpuPercent": 0.12,
       "memory": {
-        "rssMb": 56.97,
-        "heapUsedMb": 12.84
+        "rssMb": 55.16,
+        "heapUsedMb": 12.54
       },
       "progress": {
-        "completed": 977,
-        "failed": 19,
-        "pending": 4
+        "completed": 933,
+        "failed": 58,
+        "pending": 9
       }
     },
     {
-      "timestamp": "2026-03-27T09:29:27.944Z",
-      "elapsedSeconds": 459.4,
-      "cpuPercent": 0.63,
+      "timestamp": "2026-03-27T10:19:32.038Z",
+      "elapsedSeconds": 509.29,
+      "cpuPercent": 0.16,
       "memory": {
-        "rssMb": 59.78,
-        "heapUsedMb": 7.02
+        "rssMb": 54.44,
+        "heapUsedMb": 12.82
       },
       "progress": {
-        "completed": 987,
-        "failed": 8,
+        "completed": 938,
+        "failed": 57,
         "pending": 5
       }
     },
     {
-      "timestamp": "2026-03-27T09:29:31.168Z",
-      "elapsedSeconds": 462.63,
-      "cpuPercent": 0.15,
+      "timestamp": "2026-03-27T10:19:35.732Z",
+      "elapsedSeconds": 512.99,
+      "cpuPercent": 0.11,
       "memory": {
-        "rssMb": 60.31,
-        "heapUsedMb": 8.07
+        "rssMb": 51.67,
+        "heapUsedMb": 12.82
       },
       "progress": {
-        "completed": 993,
-        "failed": 1,
+        "completed": 943,
+        "failed": 51,
         "pending": 6
       }
     },
     {
-      "timestamp": "2026-03-27T09:29:34.199Z",
-      "elapsedSeconds": 465.66,
-      "cpuPercent": 0.2,
+      "timestamp": "2026-03-27T10:19:39.501Z",
+      "elapsedSeconds": 516.75,
+      "cpuPercent": 0.16,
       "memory": {
-        "rssMb": 60.81,
-        "heapUsedMb": 8.05
+        "rssMb": 52.98,
+        "heapUsedMb": 13.12
       },
       "progress": {
-        "completed": 999,
-        "failed": 1,
+        "completed": 949,
+        "failed": 45,
+        "pending": 6
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:19:42.823Z",
+      "elapsedSeconds": 520.08,
+      "cpuPercent": 0.22,
+      "memory": {
+        "rssMb": 55.28,
+        "heapUsedMb": 13.65
+      },
+      "progress": {
+        "completed": 955,
+        "failed": 41,
+        "pending": 4
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:19:47.836Z",
+      "elapsedSeconds": 525.09,
+      "cpuPercent": 0.42,
+      "memory": {
+        "rssMb": 58.36,
+        "heapUsedMb": 8.19
+      },
+      "progress": {
+        "completed": 960,
+        "failed": 34,
+        "pending": 6
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:19:52.043Z",
+      "elapsedSeconds": 529.3,
+      "cpuPercent": 0.17,
+      "memory": {
+        "rssMb": 59.27,
+        "heapUsedMb": 8.14
+      },
+      "progress": {
+        "completed": 967,
+        "failed": 31,
+        "pending": 2
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:19:54.528Z",
+      "elapsedSeconds": 531.78,
+      "cpuPercent": 0.17,
+      "memory": {
+        "rssMb": 60.44,
+        "heapUsedMb": 9.19
+      },
+      "progress": {
+        "completed": 970,
+        "failed": 23,
+        "pending": 7
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:19:57.364Z",
+      "elapsedSeconds": 534.62,
+      "cpuPercent": 0.22,
+      "memory": {
+        "rssMb": 57.08,
+        "heapUsedMb": 9.66
+      },
+      "progress": {
+        "completed": 981,
+        "failed": 15,
+        "pending": 4
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:20:00.563Z",
+      "elapsedSeconds": 537.82,
+      "cpuPercent": 0.15,
+      "memory": {
+        "rssMb": 54.95,
+        "heapUsedMb": 10.13
+      },
+      "progress": {
+        "completed": 986,
+        "failed": 7,
+        "pending": 7
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:20:03.449Z",
+      "elapsedSeconds": 540.7,
+      "cpuPercent": 0.19,
+      "memory": {
+        "rssMb": 55.55,
+        "heapUsedMb": 11.17
+      },
+      "progress": {
+        "completed": 994,
+        "failed": 0,
+        "pending": 6
+      }
+    },
+    {
+      "timestamp": "2026-03-27T10:20:06.575Z",
+      "elapsedSeconds": 543.83,
+      "cpuPercent": 0.2,
+      "memory": {
+        "rssMb": 55.72,
+        "heapUsedMb": 11.16
+      },
+      "progress": {
+        "completed": 1000,
+        "failed": 0,
         "pending": 0
       }
     },
     {
-      "timestamp": "2026-03-27T09:29:37.221Z",
-      "elapsedSeconds": 468.68,
-      "cpuPercent": 0.19,
+      "timestamp": "2026-03-27T10:20:09.536Z",
+      "elapsedSeconds": 546.79,
+      "cpuPercent": 0.23,
       "memory": {
-        "rssMb": 60.28,
-        "heapUsedMb": 8.31
+        "rssMb": 56.13,
+        "heapUsedMb": 11.45
       },
       "progress": {
-        "completed": 999,
-        "failed": 1,
+        "completed": 1000,
+        "failed": 0,
         "pending": 0
       }
     }
   ],
-  "startedAt": "2026-03-27T09:21:48.540Z",
-  "endedAt": "2026-03-27T09:29:39.096Z"
+  "startedAt": "2026-03-27T10:11:02.747Z",
+  "endedAt": "2026-03-27T10:20:11.266Z"
 }
