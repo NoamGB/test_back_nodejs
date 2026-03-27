@@ -4,6 +4,7 @@ const cors = require( "cors" );
 const path = require('path');
 const swaggerUi = require('swagger-ui-express');
 const YAML = require('yamljs');
+const rateLimit = require('express-rate-limit');
 const corsOptions = {
     origin: "*",
     credentials: true,
@@ -19,7 +20,7 @@ const swaggerDocument = YAML.load(path.join(__dirname, 'src/docs/openapi.yaml'))
 app.use( cors( corsOptions ) );
 
 // Middleware pour parser le corps des requêtes
-app.use( bodyParser.json() );
+app.use( bodyParser.json( { limit: '1mb' } ) );
 app.use( bodyParser.urlencoded( { extended: true } ) );
 
 // Middleware pour parser le corps des requêtes en JSON
@@ -32,6 +33,27 @@ app.get( "/", ( req, res ) =>
 
 // Gestion des routes
 const router = require( './src/routes' );
+
+// Rate limiting (securite)
+const apiLimiter = rateLimit( {
+    windowMs: Number( process.env.RATE_LIMIT_WINDOW_MS || 60_000 ),
+    max: Number( process.env.RATE_LIMIT_MAX || 120 ),
+    standardHeaders: true,
+    legacyHeaders: false
+} );
+
+const sensitiveWriteLimiter = rateLimit( {
+    windowMs: Number( process.env.RATE_LIMIT_WINDOW_MS || 60_000 ),
+    max: Number( process.env.RATE_LIMIT_MAX_WRITE || 10 ),
+    standardHeaders: true,
+    legacyHeaders: false
+} );
+
+// Appliquer le limitateur global sur l'API
+app.use( '/api', apiLimiter );
+// Renforcer pour l'endpoint le plus sensible
+app.use( '/api/documents/batch', sensitiveWriteLimiter );
+
 app.use( router );
 app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 

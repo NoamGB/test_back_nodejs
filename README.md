@@ -87,6 +87,12 @@ Notes:
 - Local (api hors docker): Redis en `127.0.0.1`
 - Docker compose inter-conteneurs: Redis en `redis`
 
+### Gestion des secrets
+
+- Le fichier `.env` ne doit jamais etre commit.
+- Il est ignore par le `.gitignore` (seul `.env.example` est conserve).
+- Tout acces aux donnees sensibles passe par `process.env` (Mongo/Redis/clefs).
+
 ## Installation
 
 ```bash
