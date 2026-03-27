@@ -3,12 +3,17 @@ const BatchModel = require( '../models/batch.model' );
 const documentQueue = require( '../queues/document.queue' );
 const { processDocumentJob } = require( './document.processor' );
 const { queueSizeGauge } = require( '../../config/metrics' );
+const { isDbConnected } = require( '../../config/database' );
 
 
 const findDocumentById = async ( documentId ) =>
 {
     try
     {
+        if ( !isDbConnected() )
+        {
+            return { status: 503, success: false, message: 'MongoDB unavailable', error: 'Database is down' };
+        }
         const document = await DocumentModel.findById( documentId );
         if ( !document )
         {
@@ -26,6 +31,10 @@ const findBatchById = async ( batchId ) =>
 {
     try
     {
+        if ( !isDbConnected() )
+        {
+            return { status: 503, success: false, message: 'MongoDB unavailable', error: 'Database is down' };
+        }
         const batch = await BatchModel.findById( batchId ).populate( 'documents', 'status fileId error userId createdAt updatedAt' );
         if ( !batch )
         {
@@ -56,6 +65,10 @@ const createBatch = async ( userIds ) =>
 {
     try
     {
+        if ( !isDbConnected() )
+        {
+            return { status: 503, success: false, message: 'MongoDB unavailable', error: 'Database is down' };
+        }
         const batch = await BatchModel.create( { userIds, status: 'pending' } );
 
         await Promise.all( userIds.map( async ( userId ) =>

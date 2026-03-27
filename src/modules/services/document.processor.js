@@ -1,6 +1,6 @@
 const DocumentModel = require('../models/document.model');
 const BatchModel = require('../models/batch.model');
-const { preparePdfDataWithWorkerThread, generatePDFStream } = require('../generator-pdf/pdf.generator');
+const { generatePDFStreamWithWorkerThread } = require('../generator-pdf/pdf.generator');
 const { uploadPdfStream } = require('../storage/pdf.storage');
 const { callDocuSign } = require('./docusign.service');
 const {
@@ -58,8 +58,8 @@ const processDocumentJob = async ({ documentId, userId, batchId, source = 'queue
 
   try {
     const docusign = await callDocuSign({ userId });
-    const templateData = await withTimeout(
-      preparePdfDataWithWorkerThread({
+    const pdfStream = await withTimeout(
+      generatePDFStreamWithWorkerThread({
         userId,
         templateName: 'default-template-v1',
         provider: docusign.provider
@@ -67,12 +67,13 @@ const processDocumentJob = async ({ documentId, userId, batchId, source = 'queue
       PDF_TIMEOUT_MS
     );
 
-    const pdfStream = generatePDFStream(templateData);
-
-    const fileId = await uploadPdfStream(pdfStream, `document-${documentId}.pdf`, {
-      userId,
-      batchId
-    });
+    const fileId = await withTimeout(
+      uploadPdfStream(pdfStream, `document-${documentId}.pdf`, {
+        userId,
+        batchId
+      }),
+      PDF_TIMEOUT_MS
+    );
 
     await DocumentModel.findByIdAndUpdate(documentId, {
       status: 'completed',

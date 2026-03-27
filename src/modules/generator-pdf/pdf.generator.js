@@ -1,47 +1,39 @@
 const path = require('path');
 const { Worker } = require('worker_threads');
-const PDFDocument = require('pdfkit');
 const { PassThrough } = require('stream');
 
-const templateCache = new Map();
-
-const getTemplate = (templateName) => {
-  if (!templateCache.has(templateName)) {
-    templateCache.set(templateName, (doc, data) => {
-      doc.fontSize(18).text('Generated Document', { underline: true });
-      doc.moveDown();
-      doc.fontSize(12).text(`Template: ${templateName}`);
-      doc.text(`User ID: ${data.userId}`);
-      doc.text(`Generated At: ${data.generatedAt}`);
-      doc.text(`Provider: ${data.provider}`);
-    });
-  }
-  return templateCache.get(templateName);
-};
-
-const preparePdfDataWithWorkerThread = (payload) =>
+const generatePDFStreamWithWorkerThread = (payload) =>
   new Promise((resolve, reject) => {
     const worker = new Worker(path.join(__dirname, 'pdf.thread.js'));
-    worker.once('message', (message) => {
-      worker.terminate();
-      if (!message?.ok) {
-        reject(new Error(message?.error || 'PDF generation failed'));
+    const stream = new PassThrough();
+    const cleanup = () => worker.terminate().catch(() => undefined);
+
+    worker.on('message', (message) => {
+      if (message?.type === 'chunk' && message.chunk) {
+        stream.write(Buffer.from(message.chunk));
         return;
       }
-      resolve(message.data);
+      if (message?.type === 'end') {
+        stream.end();
+        cleanup();
+        return;
+      }
+      if (message?.type === 'error') {
+        stream.destroy(new Error(message.error || 'PDF generation failed'));
+        cleanup();
+      }
     });
-    worker.once('error', reject);
+    worker.once('error', (error) => {
+      stream.destroy(error);
+      cleanup();
+    });
+    worker.once('exit', (code) => {
+      if (code !== 0 && !stream.destroyed && !stream.readableEnded) {
+        stream.destroy(new Error(`PDF worker exited with code ${code}`));
+      }
+    });
     worker.postMessage(payload);
+    resolve(stream);
   });
 
-const generatePDFStream = (templateData) => {
-  const doc = new PDFDocument();
-  const stream = new PassThrough();
-  const templateRenderer = getTemplate(templateData.templateName || 'default-template-v1');
-  doc.pipe(stream);
-  templateRenderer(doc, templateData);
-  doc.end();
-  return stream;
-};
-
-module.exports = { preparePdfDataWithWorkerThread, generatePDFStream };
+module.exports = { generatePDFStreamWithWorkerThread };
